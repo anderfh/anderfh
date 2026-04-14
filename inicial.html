@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividades em Desenvolvimento</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            width: 100%;
+            padding: 40px;
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+        
+        .activities-list {
+            list-style: none;
+        }
+        
+        .activity-item {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .activity-item:hover {
+            transform: translateX(5px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+        }
+        
+        .activity-title {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        
+        .activity-status {
+            font-size: 12px;
+            padding: 3px 8px;
+            border-radius: 12px;
+            display: inline-block;
+            margin-top: 5px;
+        }
+        
+        .status-developing {
+            background: #fff3cd;
+            color: #856404;
+        }
+        
+        .status-planned {
+            background: #d1ecf1;
+            color: #0c5460;
+        }
+        
+        .status-completed {
+            background: #d4edda;
+            color: #155724;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Atividades em Desenvolvimento</h1>
+        <p class="subtitle">Confira o progresso dos projetos</p>
+        
+        <ul class="activities-list">
+            <li class="activity-item">
+                <div class="activity-title">Página Inicial</div>
+                <p>Desenvolvimento da interface principal do projeto</p>
+                <span class="activity-status status-developing">Em Desenvolvimento</span>
+            </li>
+            
+            <li class="activity-item">
+                <div class="activity-title">Sistema de Autenticação</div>
+                <p>Implementação de login e registro de usuários</p>
+                <span class="activity-status status-developing">Em Desenvolvimento</span>
+            </li>
+            
+            <li class="activity-item">
+                <div class="activity-title">Dashboard</div>
+                <p>Criação do painel de controle com gráficos e estatísticas</p>
+                <span class="activity-status status-planned">Planejado</span>
+            </li>
+            
+            <li class="activity-item">
+                <div class="activity-title">Documentação</div>
+                <p>Redação da documentação técnica e guia do usuário</p>
+                <span class="activity-status status-planned">Planejado</span>
+            </li>
+            
+            <li class="activity-item">
+                <div class="activity-title">Testes Automatizados</div>
+                <p>Implementação de testes unitários e de integração</p>
+                <span class="activity-status status-developing">Em Desenvolvimento</span>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
