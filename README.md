@@ -1,5 +1,17 @@
 ## Hi there 👋
+I'm a Pharmacyst developing new skils to improve my work.
 
+- 🔭 I’m currently working on ...
+    - 🏁 A F1 based game, with dice rolling and evolution trought a year championship;
+    - 👨🏻‍🔬 A presentation page for myself;
+- 🌱 I’m currently learning ...
+    - 📖 Systems Analysis and Development ...
+        - C;
+        - Python;
+        - HTML;
+
+- 📫 How to reach me: ...
+    - anderfh@gmail.com
 <!--
 **anderfh/anderfh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
